@@ -32,7 +32,7 @@ Create an employee database with 10 fields using runserver command.
 
 ## PROGRAM
 
-'''
+```
 admin.py
 
 from django.contrib import admin
@@ -52,7 +52,7 @@ class Employee (models.Model):
 class EmployeeAdmin(admin.ModelAdmin):
     list_display=('eid','name','salary','age','email')
 
-'''
+```
 
 ## OUTPUT
 
